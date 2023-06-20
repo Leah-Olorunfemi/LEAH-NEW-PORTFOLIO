@@ -1,6 +1,11 @@
 body {
   /* background-color: yellow; */
 }
+.navbar-inverse {
+  background-color: #735a5a;
+  border-color: #eb2c06;
+  float: left;
+}
 
 .right {
 }
@@ -10,5 +15,12 @@ body {
 }
 
 img {
+  /* border-radius: 100px; */
   width: 300px;
+  /* margin-top: 150px; */
+  padding: 150px 60px;
+}
+
+.leah-pic {
+  border-radius: 30px;
 }
