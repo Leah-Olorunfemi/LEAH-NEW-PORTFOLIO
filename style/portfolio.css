@@ -3,8 +3,17 @@
   --box-shadow: 5px 5px 5px rgba(0, 0, 0.8);
 }
 
-.right {
-  background-color: #6490b5;
+.navbar-brand {
+  color: var(--branding-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+/* CSS rules to specify families
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
+
+.highlighted-letter {
+  color: black;
 }
 
 img {
