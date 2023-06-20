@@ -8,6 +8,12 @@
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
+
+.navbar-nav a:hover {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
 /* CSS rules to specify families
 font-family: 'Pacifico', cursive;
 font-family: 'Poppins', sans-serif; */
@@ -26,7 +32,7 @@ img {
 .leah-pic {
   border-radius: 30px;
 }
-.profile-summary {
+.hero-section {
   padding: 200px 60px 200px 10px;
 }
 
@@ -53,4 +59,13 @@ h2 {
   color: var(--branding-color);
   border-radius: 25px;
   text-decoration: none;
+}
+.first-inputs {
+  /* margin-right: 10px; */
+}
+.form-elements,
+.submit-btn {
+  border: solid 1px var(--branding-color);
+  border-radius: 10px;
+  padding: 6px 15px;
 }
