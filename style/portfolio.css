@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6490b5;
-  --box-shadow: 5px 5px 5px rgba(0, 0, 0.8);
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -54,6 +54,11 @@ h3,
 h4 {
   font-family: "Comfortaa", cursive;
 }
+.hero-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 
 .colored-links {
   padding: 5px 45px;
@@ -62,6 +67,7 @@ h4 {
   border: 1px solid var(--branding-color);
   color: white;
   border-radius: 25px;
+  box-shadow: var(--box-shadow);
   text-decoration: none;
 }
 
@@ -77,11 +83,23 @@ h4 {
 
 .transparent-links {
   padding: 5px 45px;
+  margin-right: 20px;
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
   border-radius: 25px;
   text-decoration: none;
 }
+
+.transparent-links:hover {
+  padding: 5px 45px;
+  margin-right: 20px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--branding-color);
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
 .form-elements,
 .submit-btn {
   border: solid 1px var(--branding-color);
@@ -97,9 +115,22 @@ h4 {
   border-radius: 10px;
   padding: 6px 15px;
 }
+.footer {
+  background-color: var(--branding-color);
+  color: white;
+}
 
+.social-media-icon i {
+  color: white;
+}
 @media (max-width: 768px) {
   .project-item {
-    margin: 15px;
+    margin: 20px;
+  }
+  .hero-links div {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
   }
 }
