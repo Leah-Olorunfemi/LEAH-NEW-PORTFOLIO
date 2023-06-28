@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leah's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .hero-section {
+            background-image: url("hero-background.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .hero-section p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 10px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+        }
+
+        .navbar .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .navbar-nav .nav-link {
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 20px;
+        }
+
+        .portfolio-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .portfolio-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .portfolio-item {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .portfolio-item h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .portfolio-item p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Leah's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="contact-leah.html">Contact Leah</a>
+                    <a class="nav-link" href="about-leah.html">About Leah</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Leah Olorunfemi's Portfolio</h1>
+            <p>A Frontend Developer with a passion for creating beautiful and engaging web experiences.</p>
+            <a href="#" class="btn btn-primary">View Projects</a>
+        </div>
+    </section>
+
+    <section class="portfolio-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project 2</h3>
+                        <p>Phasellus euismod euismod libero, eget hendrerit magna hendrerit eu.</p>
+                    </div>
+                </div>
+
+                <!-- Add more portfolio items as needed -->
+
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
