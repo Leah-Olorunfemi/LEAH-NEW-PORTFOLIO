@@ -44,9 +44,14 @@ h1 {
   font-family: "Pacifico", cursive;
   color: var(--branding-color);
 }
+h2 {
+  color: var(--branding-color);
+  font-size: 40px;
+}
+
 h2,
-h4,
-h3 {
+h3,
+h4 {
   font-family: "Comfortaa", cursive;
 }
 
