@@ -46,7 +46,8 @@ h1 {
 h2,
 h3 {
   color: var(--branding-color);
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h4 {
   color: var(--branding-color);
