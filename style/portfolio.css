@@ -3,9 +3,11 @@
   --box-shadow: 5px 5px 5px rgba(0, 0, 0.8);
 }
 
-.image-container {
-  background-color: #6490b5;
+body {
+  margin: 0;
+  padding: 0;
 }
+
 .navbar-brand {
   color: var(--branding-color);
   font-family: "Poppins", sans-serif;
@@ -32,7 +34,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .hero-section {
-  padding: 160px 60px 200px 10px;
+  padding: 90px 60px;
 }
 
 h1 {
@@ -42,7 +44,9 @@ h1 {
 h2 {
   color: var(--branding-color);
 }
-
+h4 {
+  color: var(--branding-color);
+}
 .colored-links {
   padding: 5px 45px;
   margin-right: 20px;
@@ -52,15 +56,23 @@ h2 {
   border-radius: 25px;
   text-decoration: none;
 }
+
+.colored-links:hover {
+  padding: 5px 45px;
+  margin-right: 20px;
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  border-radius: 25px;
+  text-decoration: none;
+}
+
 .transparent-links {
   padding: 5px 45px;
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
   border-radius: 25px;
   text-decoration: none;
-}
-.first-inputs {
-  /* margin-right: 10px; */
 }
 .form-elements,
 .submit-btn {
@@ -76,16 +88,4 @@ h2 {
   transition: all ease-in-out 150ms;
   border-radius: 10px;
   padding: 6px 15px;
-}
-.portfolio-img div {
-  /* border: 1px solid red; */
-  margin-top: 80px;
-  margin-right: 30px;
-  padding: 10px;
-  /* background: rgba(6490, 0, 0, 0.8); */
-  /* rgba 6490b5 */
-  /* background-color: var(--branding-color); */
-  /* fill-opacity: 10%; */
-  background-color: #f1e4f0;
-  border-radius: 10px;
 }
