@@ -5,6 +5,7 @@
   --secondary-font-family: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --line-height: 1.2;
 }
 
 body {
@@ -49,26 +50,27 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font-family);
+  line-height: var(--line-height);
 }
 
 h1 {
   color: var(--branding-color);
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 
 h2 {
   color: var(--branding-color);
-  /* font-size: calc(1.475rem + 2.7vw); */
+  font-size: calc(1rem + 1.7vw);
   font-weight: 300;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 
 h3 {
   color: #212529;
   font-weight: 200;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 
 h4 {
@@ -79,9 +81,7 @@ p,
 li {
   font-size: 1.25rem;
   font-weight: 300;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--secondary-font-family);
 }
 .avatar {
   width: 40%;
@@ -96,7 +96,8 @@ li {
   margin-bottom: 30px;
 }
 
-.colored-links {
+.colored-links,
+.transparent-links:hover {
   padding: 5px 45px;
   margin-right: 20px;
   background-color: var(--branding-color);
@@ -107,6 +108,7 @@ li {
   text-decoration: none;
 }
 
+.transparent-links,
 .colored-links:hover {
   padding: 5px 45px;
   margin-right: 20px;
@@ -117,24 +119,11 @@ li {
   text-decoration: none;
 }
 
-.transparent-links {
-  padding: 5px 45px;
-  margin-right: 20px;
+.project-item {
   border: 1px solid var(--branding-color);
-  color: var(--branding-color);
-  border-radius: 25px;
-  text-decoration: none;
+  border-radius: 20px;
 }
 
-.transparent-links:hover {
-  padding: 5px 45px;
-  margin-right: 20px;
-  box-shadow: var(--box-shadow);
-  background-color: var(--branding-color);
-  color: white;
-  border-radius: 25px;
-  text-decoration: none;
-}
 form {
   border: 1px solid var(--branding-color);
 }
@@ -148,7 +137,7 @@ form {
   background-color: var(--branding-color);
   border: solid 1px var(--branding-color);
   color: white;
-  transition: all ease-in-out 150ms;
+  transition: all ease-in-out 200ms;
   border-radius: 10px;
   padding: 6px 15px;
 }
@@ -172,14 +161,13 @@ li {
 }
 
 footer {
-  padding: 40px;
+  padding: 50px;
 }
 @media (max-width: 768px) {
   .project-item {
     margin: 20px;
   }
-  .homepage-links div {
-    display: block;
+  .homepage-links a {
     margin-bottom: 10px;
     padding: 15px;
   }
