@@ -31,8 +31,9 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .leah-pic {
-  width: 300px;
+  width: 200px;
   padding: 50px 20px 50px;
+  margin: 0px;
   border-radius: 60%;
   border: 1px dashed var(--branding-color);
 }
@@ -42,11 +43,6 @@ font-family: 'Poppins', sans-serif; */
   padding: 100px 60px;
 }
 
-/* h1 {
-  font-size: 60px;
-  font-family: "Pacifico", cursive;
-  color: var(--branding-color);
-} */
 h1 {
   color: var(--branding-color);
   font-size: calc(1.475rem + 2.7vw);
@@ -62,16 +58,21 @@ h2 {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
 
-  /* font-size: 40px; */
+h3 {
+  color: var(--branding-color);
+  /* font-size: calc(1.475rem + 2.7vw); */
+  font-weight: 200;
   /* line-height: 1.2; */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* h2, */
-h3,
 h4 {
   font-family: "Comfortaa", cursive;
 }
@@ -166,6 +167,9 @@ li {
 
 .social-media-icon i {
   color: white;
+}
+.skill-icon {
+  color: var(--branding-color);
 }
 
 footer {
