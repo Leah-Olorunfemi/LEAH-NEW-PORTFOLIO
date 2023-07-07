@@ -1,6 +1,8 @@
 :root {
   /* --branding-color: #6490b5; */
   --branding-color: #de2e03;
+  --branding-opacity-color: rgba(222, 46, 3, 0.7);
+  --secondary-color: white;
   --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   --secondary-font-family: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
@@ -57,20 +59,17 @@ h1 {
   color: var(--branding-color);
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
-  /* line-height: 1.2; */
 }
 
 h2 {
   color: var(--branding-color);
   font-size: calc(1rem + 1.7vw);
   font-weight: 300;
-  /* line-height: 1.2; */
 }
 
 h3 {
   color: #212529;
   font-weight: 200;
-  /* line-height: 1.2; */
 }
 
 h4 {
@@ -112,7 +111,7 @@ li {
 .colored-links:hover {
   padding: 5px 45px;
   margin-right: 20px;
-  background-color: white;
+  background-color: var(--secondary-color);
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
   border-radius: 25px;
@@ -136,33 +135,38 @@ form {
 .submit-btn:hover {
   background-color: var(--branding-color);
   border: solid 1px var(--branding-color);
-  color: white;
+  color: var(--secondary-color);
   transition: all ease-in-out 200ms;
   border-radius: 10px;
   padding: 6px 15px;
 }
-.footer {
-  background-color: var(--branding-color);
-  color: white;
+footer {
+  padding-top: 100px;
 }
+
 ul {
   display: flex;
   list-style: none;
 }
 li {
   margin-right: 20px;
+  font-size: 15px;
 }
 
-.social-media-icon i {
-  color: white;
+.icon {
+  color: var(--secondary-color);
 }
+
 .skill-icon {
   color: var(--branding-color);
 }
 
-footer {
-  padding: 50px;
+.icon {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--branding-opacity-color);
 }
+
 @media (max-width: 768px) {
   .project-item {
     margin: 20px;
