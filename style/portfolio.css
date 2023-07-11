@@ -35,14 +35,6 @@ font-family: 'Poppins', sans-serif; */
   color: black;
 }
 
-.leah-pic {
-  width: 200px;
-  padding: 50px 20px 50px;
-  margin: 0px;
-  border-radius: 60%;
-  border: 1px dashed var(--branding-color);
-}
-
 .hero-section {
   margin-top: 50px;
   padding: 100px 60px;
@@ -82,12 +74,7 @@ li {
   font-weight: 300;
   font-family: var(--secondary-font-family);
 }
-.avatar {
-  width: 40%;
-  display: block;
-  margin: 0 auto;
-  padding-top: 90px;
-}
+
 .homepage-links {
   display: flex;
   justify-content: center;
@@ -166,6 +153,9 @@ li {
   border-radius: 50%;
   background-color: var(--branding-opacity-color);
 }
+footer p {
+  font-size: 15px;
+}
 
 @media (max-width: 768px) {
   .project-item {
@@ -175,4 +165,20 @@ li {
     margin-bottom: 10px;
     padding: 15px;
   }
+  h1 {
+    font-size: calc(1.23rem + 2vw);
+  }
+  p {
+    font-size: 1;
+  }
+  /* .footer-row {
+    flex-direction: row;
+    justify-content: center;
+  } */
+  /* .footer-navigation-links,
+  .footer-social-media-links {
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 5px; */
+  /* margin: 5px 0px; */
 }
