@@ -1,6 +1,8 @@
 :root {
   /* --branding-color: #6490b5; */
-  --branding-color: #de2e03;
+  /* --branding-color: #de2e03; */
+  /* --branding-color: #2a9d8f; */
+  --branding-color: #2a9d8f;
   --branding-opacity-color: rgba(222, 46, 3, 0.7);
   --secondary-color: white;
   --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -171,14 +173,9 @@ footer p {
   p {
     font-size: 1;
   }
-  /* .footer-row {
-    flex-direction: row;
-    justify-content: center;
-  } */
-  /* .footer-navigation-links,
-  .footer-social-media-links {
-    flex-direction: row;
-    justify-content: center;
-    /* padding: 5px; */
-  /* margin: 5px 0px; */
+
+  .hero-section {
+    margin-top: 20px;
+    padding: 100px 60px;
+  }
 }
