@@ -54,18 +54,19 @@
     <!-- NAVBAR ENDS above -->
 
     <!-- <section class="hero-section" -->
-    <section class="hero-section">
-        <div class="container text-center">
+    <section class="hero-section text-center">
+        <div class="container">
             <h1 class="m-5">About Me</h1>
-            <p>Welcome to my World of Web Development and Design</hp>
-            <div class="d-flex justify-content-center m-5">
-                <img src="images/leah-pix.png" alt="leah's picture" class="img-fluid leah-pic">
-            </div>
+            <p class="m-5">Welcome to my World of Web Development and Design</p>
+            <!-- <div class="d-flex justify-content-center m-5"> -->
+            <img src="images/leah-pix.png" alt="leah's picture"
+                class="img-fluid .leah-hero-img p-5 border border-danger rounded-circle">
+            <!-- </div> -->
         </div>
     </section>
     <!-- HERO SECTION ENDS ABOVE -->
 
-    <section class="about-section mb-5">
+    <section class="about-section p-3 mb-5">
         <div class="container meet-leah">
             <h2>Who Am I?</h2>
             <p>I am a passionate web developer and graphic designer based in Lagos, Nigeria. With a strong
@@ -82,22 +83,26 @@
                 in a good book.</p>
         </div>
     </section>
-
-    <section class="skills-section mb-5">
+    <!-- Skills-section -->
+    <section class="p-3 mb-5">
         <div class="container">
             <h2>Skills</h2>
-            <ul class="p">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Vanilla JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Graphic Design</li>
-                <li>Adobe Photoshop</li>
-            </ul>
+            <div>
+                <ul class="d-block">
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Vanilla JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Graphic Design</li>
+                    <li>Adobe Photoshop</li>
+                </ul>
+            </div>
         </div>
     </section>
-    <!-- NEW CONTENT  -->
-    <section class="education-section mb-5">
+
+
+    <!-- Education-section -->
+    <section class="p-3 mb-5">
         <div class="container">
             <h2>
                 Education:
@@ -108,7 +113,9 @@
                 - Completed coursework at the Geneza School of Design (Graphic Design)
         </div>
     </section>
-    <section class="projects-section mb-5">
+
+    <!-- Projects-section -->
+    <section class="p-3 mb-5">
         <div class="container">
             <h2>
                 Projects:
@@ -118,10 +125,9 @@
                 displayed real-time weather
                 data, incorporated API integration, and offered a user-friendly interface.
             </p>
-            <p class="mb-3"> 2. Pet Website: Created a responsive website dedicated to pet welfare. Implemented
-                HTML, CSS,
-                and JavaScript to design
-                an engaging and informative platform that showcased pet stories and facilitated adoption
+            <p class="mb-3"> 2. Pet Website: I designed a responsive website dedicated to pet welfare and implemented
+                HTML, CSS, and JavaScript to design an engaging and informative platform that showcased pet stories and
+                facilitated adoption
                 inquiries.
             </p>
 
@@ -149,36 +155,38 @@
     </section>
     <!-- <FOOTER SECTION STARTS HERE -->
 
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
+    <!-- <footer class="bg-light text-center text-lg-start"> -->
+    <footer class="bg-light p-0">
+        <div class="container p-3">
             <div class="row">
-                <div class="col-lg-6 col-md-12 mb-2 mb-md-0 links">
-                    <h6 class="text-uppercase mb-3">Links</h6>
-                    <ul class="list-unstyled mb">
-                        <li><a href="index.html" class="text-dark">Home</a>
-                        </li>
-                        <li>
-                            <a href="about-me.html" class="text-dark">About Me</a>
-                        </li>
-                        <li>
-                            <a href="skills.html" class="text-dark">Skills</a>
-                        </li>
-                        <li>
-                            <a href="projects.html" class="text-dark">Projects</a>
-                        </li>
-                        <li>
-                            <a href="contact-me.html" class="text-dark">Contact Me</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
+                    <h6 class="text-uppercase text-center m-4">Links</h6>
+                    <div class="mb-3">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li><a href="index.html" class="text-dark">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-me.html" class="text-dark">About Me</a>
+                            </li>
+                            <li>
+                                <a href="skills.html" class="text-dark">Skills</a>
+                            </li>
+                            <li>
+                                <a href="projects.html" class="text-dark">Projects</a>
+                            </li>
+                            <li>
+                                <a href="contact-me.html" class="text-dark">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-2 mb-md-0">
-                    <h6 class="text-uppercase mb-3">Follow Me</h6>
+                <div class="col-lg-12 col-md-12 mb-4 mb-md-0 text-center">
+                    <h6 class="text-uppercase m-4">Follow Me</h6>
                     <ul class="list-unstyled d-flex justify-content-center">
                         <li>
                             <a href="https://www.linkedin.com/in/leaholorunfemi" class="text-dark social-media-link"><i
                                     class="fa fa-linkedin icon" aria-hidden="true"></i></a>
                         </li>
-
                         <li>
                             <a href="#!" class="text-dark social-media-link"><i class="fab fa-twitter icon"></i></a>
                         </li>
@@ -190,8 +198,8 @@
                 </div>
             </div>
         </div>
-        <div class="text-center p-3">
-            © 2023 Leah Olorunfemi All Rights Reserved.
+        <div class="text-center">
+            <p class="pb-5">© 2023 Leah Olorunfemi All Rights Reserved</p>
         </div>
     </footer>
     <!-- FOOTER ENDS ABOVE -->
